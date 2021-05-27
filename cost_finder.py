@@ -67,4 +67,4 @@ if __name__ == '__main__':
     cost_finder = CostFinder(symbol)
     avgCost, cost, qty = cost_finder()
 
-    print(f'Average Cost: {avgCost}\nCost: {cost}\nQuantity: {qty}')
+    print(f'Cost: {cost}\nQuantity: {qty}\nAverage Cost: {avgCost}')
